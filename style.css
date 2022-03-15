@@ -1,0 +1,326 @@
+.main{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+ 
+  line-height: 1.528571;
+  
+  
+  
+}
+
+
+
+/*--------------------------------------------- sidenavbar ------------------------------------*/
+
+
+.sidenav {
+  height: 100%;
+  width: 190px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:  rgb(15, 81, 107);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 16px;
+  margin-top: 48px;
+  /* position: inherit; */
+}
+
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  width: 100px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+span{
+
+font-size:30px;
+cursor:pointer;
+color: antiquewhite;
+margin-left: 24px
+}
+
+.sidebar{
+  width: 105%;
+  display: flex;
+  grid-gap: 10px;
+  height: 52px;
+  background-color: rgb(15, 81, 107);
+  position: fixed;
+}
+
+
+
+/* ----------------------------------------------home styles ----------------------------------*/
+#home{
+  
+  background-image:url(https://m.media-amazon.com/images/I/41g8yeF0NWL._SY450_.jpg);
+  min-height: 500px;
+
+}
+.home-heading{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom:0px;
+}
+
+.homerow{
+  margin: 0px;
+}
+
+
+/* ---------------------------------------------product styles----------------------------------- */
+ 
+#products{
+  background-color:#ADD8E6;  
+  min-height: 650px;
+}
+.product-heading{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom:0px;
+}
+.mode{
+  text-align: center;
+  position: inherit;
+}
+.textS{
+  text-align: justify;
+  text-align-last: center;
+  font-family: calibri,sans-serif;
+  margin-top: 1px;
+ 
+} 
+.image{
+  margin-bottom: 15px;
+}
+.fcaption{
+  font-size: 20px;
+
+}
+
+/*---------------------------------------------- about styles--------------------------------------------*/
+
+#about{
+  background-color: #45b1d4;
+  min-height: 500px;
+ }
+
+.About-heading1{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom:0px;
+  color: white;
+  margin-top: 70px;
+  
+}
+.About-heading{
+  color: rgb(252, 248, 248);
+  /* font-weight: bold; */
+  text-align: left;
+  margin-top: 10px;
+  }
+
+.math{
+  text-align: center;
+  position: inherit;
+}
+.textA{
+  text-align: justify;
+  text-align-last: left;
+  font-size: large;
+  color: white;
+  font-size: 16px;
+}
+
+.aboutrow{
+  margin-top: 5px;
+}
+
+/*---------------------------------------------------contact styles------------------------------------- */
+#contact{
+  background-color: #a1c9d6;
+  min-height: 570px;
+
+ 
+}
+.contactForm{
+max-width: 500px;
+}
+.contcat-heading{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom:0px;
+}
+.heads{
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-control{
+  width: 500px;
+  text-align: left;
+  max-width: 500px;
+ 
+}
+.row1{
+display: flex;
+justify-content: center;
+}
+
+.submit{
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 40px;
+  
+  margin-left: 243px;
+} 
+
+
+/*-------------------------------------------------- blog styles ----------------------------------------*/
+ 
+#Blog{
+  background-color:#d9e2e6;  
+  min-height: 650px;
+}
+.Blog-heading{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom:0px;
+}
+.mode{
+  text-align: center;
+  position: inherit;
+  
+}
+.textS{
+  text-align: justify;
+  text-align-last: center;
+  font-family: calibri,sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  
+} 
+
+.button{
+  background-color: rgb(54, 50, 50);
+  padding: 5px 10px;
+  color: rgb(245, 238, 238);
+  border: none;
+  margin: 10px;
+  border-radius: 20px;
+
+}
+.key{
+  margin-bottom: 20px;
+}
+
+.caption{
+  color: #45b1d4;
+}
+
+/*-------------------------------------------------------- location-------------------------------- */
+#Location {
+  background-color: #a1c9d6;
+  text-align: center;
+  min-height: 300px;
+  
+  }
+  .location-heading{
+    margin-top: 20px;
+  }
+.lead {
+  font-size: 14px;
+  text-align: left;
+}
+.loc{
+  font-weight: bolder;
+  text-align: left;
+}
+.contents{
+  margin-top: 20px;
+}
+/* ------------------------------------------------find-----------------------------------------------*/
+.find{
+  background-color: #45b1d4;
+  text-align: center;
+  font-size:larger;
+  font-weight: bold;
+  
+
+}
+.btn{
+  padding: 4px 8px;
+}
+.addr{
+  font-weight: bolder;
+
+}
+.mode1{
+  position: inherit;
+  margin-top: 22px;
+  text-align: left;
+  
+}
+.mode2{
+  position: inherit;
+  margin-top: 5px;
+  
+}
+.container{
+  text-align: center;
+
+}
+.last{
+  text-align: left;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.products{
+
+  font-weight: bolder;
+  text-align: left;
+
+}
+/* -------------------------------------------------footer---------------------------------------------  */
+.footercontainer{
+  text-align: center;
+  background-color: black;
+  
+
+}
+
+
+
+
+
+
